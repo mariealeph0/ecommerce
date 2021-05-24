@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera {
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botones {
+    display: inline;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    border-color: indigo;
+    border-width: 8px;
+    border-radius: 20%;
+}
+
+#botonHome {
+    position: relative;
+}
+
+#botonHome:hover {
+    width: 30px;
+    height: 30px;
+}
+
+#botonCarrito:hover {
+    width: 30px;
+    height: 30px;
+}
+
+.encabezados {
+    width: 100wh;
+    height: 40px;
+    margin-top: 15px;
+    color: white;
+}
+
+#encabezadoClasicos {
+    background-color: darkgreen;
+}
+
+#encabezadoAlternativo {
+    background-color: darkblue;
+}
+
+#encabezadokawaii {
+    background-color: hotpink;
+}
+
+
+/* #principal {
+    width: 1000wh;
+    height: 400vh;
+    background-color: rgb(221, 184, 255);
+    background-position: center;
+} */
+
+
+/*Estilos para las pag de categoria*/
+
+#banners {
+    height: 30px;
+    background-color: yellow;
+    font-size: 25px;
+}
+
+.categorias {
+    display: inline;
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 15px;
+    color: white;
+}
+
+#clasico {
+    background-color: green;
+}
+
+#kawaii {
+    background-color: rgb(255, 124, 190);
+}
+
+#alternativo {
+    background-color: blue;
+}
+
+#pie {
+    position: relative;
+    background-color: yellow;
+    color: black;
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
+    width: 100wh;
+}
+
+#cajaProductos {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(136, 136, 136);
+    font-size: 20px;
+    color: white;
+    height: 50vh;
+}
+
+.productos {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    top: 10px;
+    margin: 10px;
+}
+
+
+/*estilos para pagina formulario compra*/
+
+#bodyPago {
+    background-color: indigo;
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#factura {
+    background-color: gray;
+}
