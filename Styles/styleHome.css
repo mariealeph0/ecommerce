@@ -4,10 +4,15 @@
 }
 
 #cabecera {
-    background-color: yellow;
+    background-color: darkgrey;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#logo {
+    display: inline;
+    margin: auto;
 }
 
 .botones {
@@ -41,6 +46,10 @@
     color: white;
 }
 
+#encabezadoCategorias {
+    background-color: indigo;
+}
+
 #encabezadoClasicos {
     background-color: darkgreen;
 }
@@ -51,6 +60,17 @@
 
 #encabezadokawaii {
     background-color: hotpink;
+}
+
+#descripcion {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    height: 50vh;
+    text-align: justify;
+    text-indent: 150px;
+    justify-content: center;
 }
 
 
@@ -66,7 +86,7 @@
 
 #banners {
     height: 30px;
-    background-color: yellow;
+    background-color: darkgrey;
     font-size: 25px;
 }
 
@@ -81,20 +101,20 @@
 }
 
 #clasico {
-    background-color: green;
+    background-color: darkgreen;
 }
 
 #kawaii {
-    background-color: rgb(255, 124, 190);
+    background-color: hotpink;
 }
 
 #alternativo {
-    background-color: blue;
+    background-color: darkblue;
 }
 
 #pie {
     position: relative;
-    background-color: yellow;
+    background-color: darkgrey;
     color: black;
     font-size: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -105,7 +125,7 @@
 #cajaProductos {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(136, 136, 136);
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     height: 50vh;
 }

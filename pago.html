@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/styleHome.css">
+    <link rel="stylesheet" href="./Styles/styleHome.css">
     <title>formulario de compra</title>
 </head>
 
 <header id="cabecera">
     <!-- Contiene nombre de la pag boton menu y boton carrito. Va en todas las pags-->
     <div>
-        <h1>Personalizatucompu.com</h1>
-        <button class="botones" type="submit"><a id="botonHome" href="./home.html" ><img src="/imagenes/home.png" id="botonHome" width="20" height="20"></a></button>
-        <button class="botones" type="submit"><a  href="./carrito.html"><img src="/imagenes/carrito.png" id="botonCarrito" width="20" height="20"></a></button>
+        <h1><img id="logo" src="imagenes/logo.png" width="150px" height="100px">Personalizatucompu.com
+            <button class="botones" type="submit"><a id="botonHome" href="./home.html" ><img src="/imagenes/home.png" id="botonHome" width="20" height="20"></a></button>
+            <button class="botones" type="submit"><a  href="./carrito.html"><img src="/imagenes/carrito.png" id="botonCarrito" width="20" height="20"></a></button>
+        </h1>
+        <hr/>
     </div>
 </header>
 
@@ -23,25 +25,37 @@
         <div id="factura">
             Resumen de su compra: *Si desea modificar su compra debe regresar al Carrito de compras.
         </div>
-        <form>
-            <div><label>Numero de Tarjeta:</label>
-                <input type="number" id="tarjeta"></div>
-            <div><label>Correo electronico:</label>
-                <input type="email" id="email"></div>
+        <form id="formulario">
+            <br></br>
+            <label>Nombre y Apellidos: </label>
+            <input type="text" id="nombre"><br></br>
+            <label>Numero de Tarjeta:</label>
+            <input type="number" id="tarjeta"><br></br>
+            <label>Correo electronico:</label>
+            <input type="email" id="email"><br></br>
+            <label>Telefono de contacto:</label>
+            <input type="number" id="tel"><br></br>
+            <button id="botonEnviar">Enviar</button>
 
-            <div><label>Total (valor a pagar):</label>
-                <input type="number" id="valorPagar"></div>
+            <!-- <div><label>Total (valor a pagar):</label>
+        <input type="number" id="valorPagar"></div> -->
         </form>
     </div>
-
+    <script src="./scripts/script.js"></script>
 </body>
 
 <fotter>
     <div id="pie">
+        <div style="font-size: 15px; background-color:indigo; color:white;">
+            <hr><em>..."Creado a tu imagen y semejanza"...  </em>
+            <hr>
+        </div>
+        <br/>
         <h3>Gracias por preferirnos. Disfruta tu compra y siguenos en redes</h3>
         <h5>instagram: <a href="white" target="_blank">https://www.instagram.com/personalizatucompu.com</a></h5>
         <h5>facebook: <a href="white" target="_blank">https://www.facebook.com/personalizatucompu.com</a></h5>
         <h5>whatsapp: <a href="white" target="_blank">+57 31978741071</a></h5>
+        <br/>
     </div>
 </fotter>
 
