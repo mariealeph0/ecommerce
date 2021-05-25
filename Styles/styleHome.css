@@ -25,9 +25,10 @@
     border-radius: 20%;
 }
 
-#botonHome {
+
+/* #botonHome {
     position: relative;
-}
+} */
 
 #botonHome:hover {
     width: 30px;

@@ -36,5 +36,10 @@ function guardarObj(nombreApellido, numeroTarjeta, correo, telefono) {
 }
 
 function obtenerObj() {
+    let item1 = localStorage.getItem("Nombre");
+    let item2 = localStorage.getItem("Tarjeta");
+    let item3 = localStorage.getItem("Correo");
+    let item4 = localStorage.getItem("Telefono");
+    console.log(item1, item2, item3, item4)
 
 }
